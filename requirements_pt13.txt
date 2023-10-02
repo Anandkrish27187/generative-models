@@ -11,7 +11,7 @@ xformers==0.0.16
 torchaudio==0.13.1
 torchvision==0.14.1+cu117
 torchmetrics
-opencv-python==4.6.0.66
+opencv-python==4.8.1.78.66
 fairscale
 pytorch-lightning==1.8.5
 fsspec
