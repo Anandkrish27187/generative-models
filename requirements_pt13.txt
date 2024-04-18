@@ -6,7 +6,7 @@ pillow
 numpy
 webdataset>=0.2.33
 --extra-index-url https://download.pytorch.org/whl/cu117
-torch==1.13.1+cu117
+torch==2.2.0+cu117
 xformers==0.0.16
 torchaudio==0.13.1
 torchvision==0.14.1+cu117
