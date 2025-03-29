@@ -13,7 +13,7 @@ torchvision==0.14.1+cu117
 torchmetrics
 opencv-python==4.6.0.66
 fairscale
-pytorch-lightning==1.8.5
+pytorch-lightning==2.4.0
 fsspec
 kornia==0.6.9
 matplotlib
@@ -30,8 +30,8 @@ streamlit>=0.73.1
 timm
 tokenizers==0.12.1
 torchdata==0.5.1
-transformers==4.19.1
-onnx<=1.12.0
+transformers==4.48.0
+onnx<=1.17.0
 triton
 wandb
 invisible-watermark
