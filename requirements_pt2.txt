@@ -39,3 +39,6 @@ xformers
 -e git+https://github.com/openai/CLIP.git@main#egg=clip
 -e git+https://github.com/Stability-AI/datapipelines.git@main#egg=sdata
 -e .
+filelock>=3.20.1 # not directly required, pinned by Snyk to avoid a vulnerability
+fonttools>=4.61.0 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.5.3 # not directly required, pinned by Snyk to avoid a vulnerability
