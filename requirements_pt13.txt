@@ -6,7 +6,7 @@ pillow
 numpy
 webdataset>=0.2.33
 --extra-index-url https://download.pytorch.org/whl/cu117
-torch==1.13.1+cu117
+torch==2.10.0+cu117
 xformers==0.0.16
 torchaudio==0.13.1
 torchvision==0.14.1+cu117
@@ -39,3 +39,4 @@ invisible-watermark
 -e git+https://github.com/openai/CLIP.git@main#egg=clip
 -e git+https://github.com/Stability-AI/datapipelines.git@main#egg=sdata
 -e .
+wheel>=0.46.2 # not directly required, pinned by Snyk to avoid a vulnerability
